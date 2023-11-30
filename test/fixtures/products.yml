@@ -3,11 +3,11 @@
 one:
   title: MyString
   description: MyText
-  image_url: MyString
+  image_url: super_developer_sleep.png
   price: 9.99
 
 two:
-  title: MyString
-  description: MyText
-  image_url: MyString
+  title: MyString2
+  description: MyText2
+  image_url: super_developer_sleep.png
   price: 9.99

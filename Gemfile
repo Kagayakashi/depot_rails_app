@@ -66,6 +66,7 @@ group :development, :test do
   gem "rubocop", require: false
   gem "rubocop-rails", require: false
   gem "rubocop-rails_config", "~> 1.16"
+  gem "rubocop-discourse"
 end
 
 group :development do

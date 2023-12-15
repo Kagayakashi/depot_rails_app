@@ -9,4 +9,5 @@ AllCops:
     - 'db/**/*'
     - 'config/**/*'
     - 'script/**/*'
-    - 'bin/*'
+    - 'bin/**/*'
+    - 'vendor/**/*'

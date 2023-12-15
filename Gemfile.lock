@@ -311,6 +311,7 @@ DEPENDENCIES
   rails (~> 7.1.1)
   rubocop
   rubocop-discourse
+  rubocop-performance
   rubocop-rails
   rubocop-rails_config (~> 1.16)
   selenium-webdriver

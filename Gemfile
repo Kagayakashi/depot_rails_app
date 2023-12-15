@@ -65,6 +65,7 @@ group :development, :test do
   # Lint Ruby files
   gem "rubocop", require: false
   gem "rubocop-rails", require: false
+  gem "rubocop-performance", require: false
   gem "rubocop-rails_config", "~> 1.16"
   gem "rubocop-discourse"
 end

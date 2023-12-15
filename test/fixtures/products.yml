@@ -1,13 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  description: MyText
+  title: "Super developer 1st"
+  description: "This is first super developer"
   image_url: super_developer_sleep.png
   price: 9.99
 
 two:
-  title: MyString2
-  description: MyText2
+  title: "Super developer 2nd"
+  description: "This is second super developer"
+  image_url: super_developer_stand.jpg
+  price: 9.99
+
+superdevsleep:
+  title: "Super developer 1st"
+  description: "This is first super developer"
   image_url: super_developer_sleep.png
   price: 9.99

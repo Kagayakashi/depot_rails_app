@@ -50,6 +50,18 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
+  
+  # Postgresql DB
+  gem "pg"
+
+  # Security audit dependencies
+  gem "bundler-audit"
+
+  #S ecurity audit application code
+  gem "brakeman"
+
+  # Lint Ruby files
+  gem "rubocop"
 end
 
 group :development do

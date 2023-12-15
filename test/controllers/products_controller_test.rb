@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "test_helper"
 
 class ProductsControllerTest < ActionDispatch::IntegrationTest
@@ -22,10 +24,10 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
     assert_difference("Product.count") do
       post products_url, params: {
         product: {
-          title:       @title,
+          title: @title,
           description: @product.description,
-          image_url:   @product.image_url,
-          price:       @product.price
+          image_url: @product.image_url,
+          price: @product.price
         }
       }
     end
@@ -46,10 +48,10 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
   test "should update product" do
     patch product_url(@product), params: {
       product: {
-        title:       @title,
+        title: @title,
         description: @product.description,
-        image_url:   @product.image_url,
-        price:       @product.price
+        image_url: @product.image_url,
+        price: @product.price
       }
     }
     assert_redirected_to product_url(@product)

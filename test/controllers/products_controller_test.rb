@@ -27,8 +27,8 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
           title: @title,
           description: @product.description,
           image_url: @product.image_url,
-          price: @product.price
-        }
+          price: @product.price,
+        },
       }
     end
 
@@ -51,8 +51,8 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
         title: @title,
         description: @product.description,
         image_url: @product.image_url,
-        price: @product.price
-      }
+        price: @product.price,
+      },
     }
     assert_redirected_to product_url(@product)
   end

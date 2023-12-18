@@ -1,3 +1,5 @@
+inherit_from: .rubocop_todo.yml
+
 inherit_gem:
   rubocop-rails_config:
     - config/rails.yml
@@ -39,24 +41,15 @@ Metrics/ParameterLists:
   Enabled: true
 
 Metrics/MethodLength:
-  Description: 'Avoid methods longer than 5 lines of code.'
+  Description: 'Avoid methods longer than 10 lines of code.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#short-methods'
-  Max: 5
+  Max: 10
   Enabled: true
 
 Metrics/BlockLength:
+  Description: 'Avoid blocks longer than 10 lines of code.'
   CountComments: false
-  Max: 5
-  IgnoredMethods:
-    - context
-    - describe
-    - it
-    - shared_examples
-    - shared_examples_for
-    - namespace
-    - draw
-    - configure
-    - group
+  Max: 11
 
 # Style Cops
 

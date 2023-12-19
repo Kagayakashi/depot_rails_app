@@ -1,19 +1,31 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: "Super developer 1st"
-  description: "This is first super developer"
-  image_url: super_developer_sleep.png
+  title: "MyString"
+  description: "MyText"
+  image_url: lorem.jpg
   price: 9.99
 
 two:
-  title: "Super developer 2nd"
-  description: "This is second super developer"
-  image_url: super_developer_stand.jpg
+  title: "MyString"
+  description: "MyText"
+  image_url: lorem.jpg
+  price: 39.99
+
+captain_blood:
+  title: "Captain Blood"
+  description: "By Rafael Sabatini"
+  image_url: captain_blood.jpeg
   price: 9.99
 
-superdevsleep:
-  title: "Super developer 1st"
-  description: "This is first super developer"
-  image_url: super_developer_sleep.png
-  price: 9.99
+monte_cristo:
+  title: "The Count Monte Cristo"
+  description: "By Alexandre Dumas"
+  image_url: monte_cristo.jpg
+  price: 39.99
+
+disgardium:
+  title: "Disgardium Class-A Threat"
+  description: "By Dan Sugralinov"
+  image_url: disgardium.jpg
+  price: 19.99

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DepotApp</title>
+    <title>Vyacheslav's Books Online Store</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,9 +11,29 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <main class="container mx-auto mt-28 px-5 flex">
-      <%= yield %>
-    </main>
+  <body class="flex flex-col h-screen">
+    <header class="bg-green-700">
+      <%= image_tag "logo.png", alt: "Book store logo", class: "w-24" %>
+      <h1><%= @page_title %></h1>
+    </header>
+
+    <section class="flex flex-grow">
+      <nav class="bg-green-900 p-6">
+        <ul class="text-gray-300 leading-8">
+          <li><a href="/">Home</a></li>
+          <li><a href="/questions">Questions</a></li>
+          <li><a href="/news">News</a></li>
+          <li><a href="/contact">Contacts</a></li>
+        </ul>
+      </nav>
+      <main class="container mx-auto mt-4 px-5 flex">
+        <%= yield %>
+      </main>
+    </section>
+
+    <footer class="bg-green-700 p-6 text-slate-300 leading-8"">
+      <p>&copy; 2023 Vyacheslav Odinokov. All rights reserved.</p>
+      <p>Terms of Service | Privacy Policy | Contact Us</p>
+    </footer>
   </body>
 </html>
